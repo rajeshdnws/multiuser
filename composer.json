@@ -1,0 +1,26 @@
+{
+    "name": "born/module-multiusers",
+    "description": "Create sub user and switch with associate account",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        },
+        {
+            "name": "Rajesh Chaudhary",
+            "email": "veteamppm2@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Born\\MultiUsers\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
